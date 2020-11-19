@@ -116,6 +116,7 @@ public class Main {
         }
     }
 
+
     public static void findCompanyPersonal(List<List<String>> stringListD, int min, int max) {
         int[] arrayStaff = new int[stringListD.size() - 1];
         for (int i = 1; i < stringListD.size(); ++i) {

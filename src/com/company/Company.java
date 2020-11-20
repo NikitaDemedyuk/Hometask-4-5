@@ -108,18 +108,14 @@ public class Company {
         }
     }
 
-    /*public static void findCompanyByDateFoundation(List <Company> companyList, int minDate, int maxDate) {
+    public static void findCompanyByDateFoundation(List <Company> companyList, int minDate, int maxDate) {
         String delimeter = ".";
-        List <List <String>> date = new String[companyList.size() + 1];
-        for (int i = 1; i < companyList.size(); ++i) {
-             date.add(companyList.get(i + 1).dateActual.split(delimeter));
-        }
         for (int i = 0; i < companyList.size(); ++i) {
-            if ((companyList.get(i).dateFoundation. > minDate) && (companyList.get(i).dateFoundation < maxDate)) {
+            if ((companyList.get(i).dateFoundation > minDate) && (companyList.get(i).dateFoundation < maxDate)) {
                 System.out.println("Company: " + companyList.get(i).fullName);
             }
         }
-    }*/
+    }
 
     public static void findCompanyByStaff(List <Company> companyList, int min, int max) {
         for (int i = 0; i < companyList.size(); ++i) {
